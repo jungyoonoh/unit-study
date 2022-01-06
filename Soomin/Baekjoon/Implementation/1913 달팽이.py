@@ -44,7 +44,7 @@ for k in range(n*n+(2*n-2)):
     ny += dy[change%4]
     j+=1 #실제 값 채워질 때만 n2 인덱스 번호 증가
 
-#문제 주워진 형태로 출력    
+#문제 주어진 형태로 출력    
 for p in range(n):
   for q in range(n):
     if a[p][q] == loc:
