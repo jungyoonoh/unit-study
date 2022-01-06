@@ -17,19 +17,12 @@ nx,ny = 0, 0 #최초 위치
 n2 = []
 for i in range(n*n,0,-1):
   n2.append(i)
-print(n2)
-
 
 change = 0 #변화 
 j = 0 #n2 증가용
 
 #n*n+(2*n-2) : change가 총 2*n-2번 일어나기 때문
 for k in range(n*n+(2*n-2)):
-
-  #찾는 값 위치
-  if (n2[j] == loc):
-    loc_x = nx
-    loc_y = ny
 
   #범위 벗어나거나 이미 채워진 곳일 때
   if (nx < 0) or (ny < 0) or (nx >= n) or (ny >= n) or (a[nx][ny] != 0):
@@ -54,9 +47,12 @@ for k in range(n*n+(2*n-2)):
 #문제 주워진 형태로 출력    
 for p in range(n):
   for q in range(n):
+    if a[p][q] == loc:
+      loc_x, loc_y = p+1, q+1
     print(a[p][q], end=' ')
-  print("\n")
+  print("")
 
-print(loc_x, loc_y)     
+print(loc_x, loc_y)
+
 
 
