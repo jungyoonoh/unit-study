@@ -17,7 +17,18 @@
   Add(Seonju/Greedy): 백준 11399 ATM
   Add(Seonju/DP): 프로그래머스 등굣길
   ```
+
+<br>
+
+문제 코드를 리팩토링 하는 경우 (더 나은 풀이가 있는 경우)
+- **Refactor(이름/알고리즘 분류): 사이트명 문제번호 문제명**    
+- 예시
+  ```
+  Refactor(Seonju/Greedy): 백준 11399 ATM
+  Refactor(Seonju/DP): 프로그래머스 등굣길
+  ```
   프로그래머스의 경우 문제번호가 존재하지 않으므로 생략합니다.
+  
   
 <br>
 
