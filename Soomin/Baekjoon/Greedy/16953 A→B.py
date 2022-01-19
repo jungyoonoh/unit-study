@@ -1,5 +1,5 @@
 #20220119
-#백준(그리디) : 16953 A->B
+#백준(그리디) : 16953 A→B
 #https://www.acmicpc.net/problem/16953
 
 a,b = map(int,input().split())
