@@ -15,3 +15,4 @@ def solution(n, lost, reserve):
         elif i+1 in set_l:
             set_l.remove(i+1)
     return n - len(set_l)
+    
