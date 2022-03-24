@@ -1,7 +1,6 @@
 #20220325
 #백준(그래프 탐색) : 14248 점프 점프
 #https://www.acmicpc.net/problem/14248
-
 from collections import deque
 
 def bfs(v):
