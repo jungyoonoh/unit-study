@@ -1,6 +1,9 @@
 # 21318번 피아노 체조 (Implementation) 
 # https://www.acmicpc.net/problem/21318
 
+import sys
+input = sys.stdin.readline
+
 N = int(input())
 level = list(map(int, input().split()))
 miss = [0] * N
