@@ -7,6 +7,7 @@
   - 류수민 ([@SoominRyu])
   - 김선주 ([@Seon-Ju])
     <br> 💬 실버 4였던 내가 이세계에선 골드 3? 코린이 이만큼 키워주셔서 고맙습니다🤍 저는 Swift와 친해지기 위해 20000💨 (22.04.03)
+  - 나지수 ([@jis00na])
 
 <br>
 
@@ -71,3 +72,4 @@
 [@jungyoonoh]: https://github.com/jungyoonoh
 [@Seon-Ju]: https://github.com/Seon-Ju
 [@SoominRyu]: https://github.com/SoominRyu
+[@jis00na]: https://github.com/jis00na
