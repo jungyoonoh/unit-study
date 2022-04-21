@@ -1,7 +1,6 @@
 from collections import deque
 
-n, k = map(int, input().split())
-count = 0
+visit = [0]*(100001)
 queue = deque()
 
 def BFS(start, goal):
@@ -10,16 +9,12 @@ def BFS(start, goal):
     while queue:
         x = queue.popleft()
         if x == goal:
-            print(count)
-        else:
-            for ox in (start -1, start + 1, 2*start):
-                if (0<=ox<100000):
-                    count = count + 1
-                    queue.append(ox)
-        exit(0)
+            print(visit[x])
+            break
+        for nx in (x-1, x+1, 2*x):
+            if (0<=nx<=100000) and not visit[nx]:
+                visit[nx] = visit[x] + 1
+                queue.append(nx)
 
+n, k = map(int, input().split())
 BFS(n, k)
-
-
-
-
