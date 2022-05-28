@@ -1,4 +1,4 @@
-# 14467번 소가 길을 건너간 이유 1 (Implementation) 
+# 14467번 소가 길을 건너간 이유 1 (Greedy) 
 # https://www.acmicpc.net/problem/14467
 
 N = int(input())
